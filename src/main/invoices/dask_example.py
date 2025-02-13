@@ -12,3 +12,8 @@ df = dd.read_csv('C:/Users/roger.lloret/Documents/EAE/assignment_kettle/consumpt
 progress(df)
 
 df.P2.sum().compute()
+
+df2 = dd.read_csv('C:/Users/roger.lloret/Documents/EAE/assignment_kettle/consumptions_eae.csv')
+progress(df)
+
+df2.P2.sum().compute()
